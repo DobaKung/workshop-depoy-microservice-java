@@ -6,3 +6,7 @@ dd:
 - openssl aes-256-cbc -K $encrypted_f490463e1b07_key -iv $encrypted_f490463e1b07_iv
   -in soa-demo-237105-357ab1d18cd8.json.enc -out soa-demo-237105-357ab1d18cd8.json
   -d
+before_install:
+- openssl aes-256-cbc -K $encrypted_f490463e1b07_key -iv $encrypted_f490463e1b07_iv
+  -in soa-demo-237105-357ab1d18cd8.json.enc -out soa-demo-237105-357ab1d18cd8.json
+  -d
